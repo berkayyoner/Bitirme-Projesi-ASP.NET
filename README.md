@@ -9,7 +9,7 @@
 .
 ### Öğretmen
 
-- Belaynesh Chekol
+- Dr. Öğr. Üyesi Belaynesh Chekol
 
 
 ### Hazırlayanlar
