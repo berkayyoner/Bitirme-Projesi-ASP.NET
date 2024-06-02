@@ -1,0 +1,140 @@
+html {
+  font-size: 14px;
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: black;
+}
+
+.white {
+    color: white;
+}
+
+.same-text {
+    margin-bottom: -5px;
+}
+
+.logo {
+    font-size: 23px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+    .logo:hover {
+        color: #9c9c9c;
+        transition: 1s;
+    }
+
+.navbar {
+    border-bottom: solid grey 1px;
+    margin-bottom: 20px;
+    background: rgba(60, 60, 60, 0.856);
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-buttons {
+    width: 320px;
+}
+
+.navbar-button {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+    .navbar-button:hover {
+        color: black;
+        background-color: white;
+        transition: 1s;
+    }
+
+.calculator-adding {
+    margin: 7%;
+    margin-bottom: 3%;
+}
+
+.calculator-indexes {
+    float: left;
+    margin-left: 15%;
+}
+
+.calculator-operator {
+    margin: 3px;
+    margin-right: 15px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(60, 60, 60, 0.856);
+    border: solid black 1px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+    .button:hover {
+        color: black;
+        background-color: white;
+        transition: 1s;
+    }
+
+.insta-button {
+    text-decoration: none;
+    color: white;
+    background-color: #E1306C;
+    border: solid black 1px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+    .insta-button:hover {
+        color: black;
+        background-color: white;
+        transition: 1s;
+    }
+
+.left-image {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: rgba(10, 10, 10, 0.856);
+    border-radius: 40px;
+}
+
+.right-image {
+    width: 400px;
+    height: 400px;
+    float: right;
+    background: rgba(10, 10, 10, 0.856);
+    border-radius: 40px;
+}
+

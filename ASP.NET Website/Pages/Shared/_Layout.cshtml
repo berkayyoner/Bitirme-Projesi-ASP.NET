@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - ForLib</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/ASP.NET_Website.styles.css" asp-append-version="true" />
+        <link rel="icon" type="image/png" href="/images/logo3.png" sizes="32x32">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+            
+            <a class="logo" asp-area="" asp-page="/Index"><img src="images/logo3.png" alt="logo" asp-area="" asp-page="/Index" style="height: 50px; weight: 50px;"></a>
+                <div class="navbar-buttons">
+                    <a class="navbar-button" asp-area="" asp-page="/Index">Ana Sayfa</a>
+                    <a class="navbar-button" asp-area="" asp-page="/Download">İndir</a>
+                    <a class="navbar-button" asp-area="" asp-page="/About">Hakkımda</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                </br>
+            &copy; 2024 - ForLib - <a asp-area="" asp-page="/Privacy">Gizlilik Politikası</a>
+            </div>
+        </footer>
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+</html>
+
+ <style>
+     
+ </style>
